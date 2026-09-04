@@ -447,7 +447,7 @@ public:
             } catch (out_of_range& e) { cout << "  Error: " << e.what() << "\n"; }
               catch (...)             { cout << "  Invalid value.\n"; }
         }
-        else cout << "  [Thermostat] Unknown command: " << command << "\n";
+        else cout << "  [Thermostat] Error Unknown command: " << command << "\n";
     }
 
     void displayStatus() const override {
